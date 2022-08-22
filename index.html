@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <title>FxMedia</title>
+</head>
+<body>
+  <div id="nav-bar" class="card position-absolute justifiy-content-right top-0 start-50" style="z-index:2;margin-left:20em">
+    <img src="./images/logo-nav.png" class="card-img-top px-4 py-1" alt="logo-nav">
+    <div class="dropdown">
+      <button class="btn dropdown-toggle text-center fw-bolder fs-6 w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:#FCD44D;height:35px">
+        MENU
+      </button>
+      <ul class="dropdown-menu w-100 text-center" style="background-color:#FCD44D" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item fw-bold" href="#">About Us</a></li>
+        <li><a class="dropdown-item fw-bold" href="#">Club Buzz</a></li>
+        <li><a class="dropdown-item fw-bold" href="#">Membership</a></li>
+        <li><a class="dropdown-item fw-bold" href="#">Wine & Dine</a></li>
+        <li><a class="dropdown-item fw-bold" href="#">Facilities</a></li>
+        <li><a class="dropdown-item fw-bold" href="#">Banquet</a></li>
+        <li><a class="dropdown-item fw-bold" href="#">Gallery</a></li>
+        <li><a class="dropdown-item fw-bold" href="#">What's New?</a></li>
+        <li><a class="dropdown-item fw-bold" href="#">Sports</a></li>
+        <li><a class="dropdown-item fw-bold" href="#">Swimming</a></li>
+        <li><a class="dropdown-item fw-bold" href="#">Social</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="nav-scrolled" class="navbar navbar-expand-lg position-fixed w-100 d-flex justify-content-center fw-bold" style="z-index:2;background-color:#FCD44D;visibility:hidden;font-size:0.75em;height:5em">
+        <div class="nav-item">
+          <img class="me-4" style="height:5em" src="./images/logo-nav.png" alt="logo">
+        </div>
+        <div class="nav-item">
+          <a class="nav-link text-dark active" aria-current="page" href="#">Home</a>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link text-dark" href="#">About Us</a>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link text-dark" href="#">Club Buzz</a>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link text-dark" href="#">Membership</a>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link text-dark" href="#">Wine & Dine</a>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link text-dark" href="#">Facilities</a>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link text-dark" href="#">Banquet</a>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link text-dark" href="#">Gallery</a>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link text-dark" href="#">What's New</a>
+        </div>
+        <div class="nav-item">
+          <svg class="ms-4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg>
+        </div>
+  </div>
+  <div class="owl-slider position-relative" style="z-index:1">
+    <div class="owl-carousel owl-theme overflow:hidden">
+      <div class="item" style="max-height:600px;">
+        <img class="w-100" src="./images/home-1.png" alt="Picture1">
+        <div class="carousel-caption text-start d-none d-md-block">
+          <h2 class="fw-lighter">The Premiere Family Club</h2>
+          <h4>Where people make the difference</h4>
+        </div>
+      </div>
+      <div class="item" style="max-height:600px;">
+        <img class="w-100" src="./images/home-2.png" alt="Picture2">
+        <div class="carousel-caption text-start d-none d-md-block">
+          <h2 class="fw-lighter">The Premiere Family Club</h2>
+          <h4>Where people make the difference</h4>
+        </div>
+      </div>
+      <div class="item" style="max-height:600px;">
+        <video class="w-100" controls autoplay loop muted><source src="./images/home-3.mp4" type="video/mp4"></video>
+        <div class="carousel-caption text-start d-none d-md-block">
+          <h2 class="fw-lighter">The Premiere Family Club</h2>
+          <h4>Where people make the difference</h4>
+        </div>
+      </div>
+      <div class="item" style="max-height:600px;">
+        <video class="w-100" controls autoplay loop muted><source src="./images/home-4.mp4" type="video/mp4"></video>
+        <div class="carousel-caption text-start d-none d-md-block">
+          <h2 class="fw-lighter">The Premiere Family Club</h2>
+          <h4>Where people make the difference</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="max-width:80%">
+    <div class="mt-2">
+      <ol class="nav nav-pills">
+          <li class="nav-item ">
+              <a class="nav-link active text-center fs-5" style="width:15rem" href="#home" data-toggle="pill">Featured</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-center fs-5" style="width:15rem" href="#profile" data-toggle="pill">Events</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-center fs-5" style="width:15rem" href="#third" data-toggle="pill">Publication</a>
+          </li>
+      </ol>
+    </div>
+    <div class="tab-content mt-4">
+        <div id="home" class="tab-pane fade show active" role="tabpanel">
+          <div>
+            <div class="row">
+              <div class="col">
+                <div class="card d-flex justify-content-center border-0 m-0" style="width: 18rem;">
+                  <img src="./images/items-home.png" class="card-img-top" alt="home-pict">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-bold">SALE OF ORDINARY MEMBERSHIP AT THE CLUB</p>
+                  </div>
+                  <div class="w-100 my-2" style="padding:1px;background:#FCD44D"></div>
+                  <p class="fs-6 text-center">Purchase of membership directly from the club</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card d-flex justify-content-center border-0 m-0" style="width: 18rem;">
+                  <img src="./images/items-home.png" class="card-img-top" alt="home-pict">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-bold">SALE OF ORDINARY MEMBERSHIP AT THE CLUB</p>
+                  </div>
+                  <div class="w-100 my-2" style="padding:1px;background:#FCD44D"></div>
+                  <p class="fs-6 text-center">Purchase of membership directly from the club</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card d-flex justify-content-center border-0 m-0" style="width: 18rem;">
+                  <img src="./images/items-home.png" class="card-img-top" alt="home-pict">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-bold">SALE OF ORDINARY MEMBERSHIP AT THE CLUB</p>
+                  </div>
+                  <div class="w-100 my-2" style="padding:1px;background:#FCD44D"></div>
+                  <p class="fs-6 text-center">Purchase of membership directly from the club</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <div class="card d-flex justify-content-center border-0 m-0" style="width: 18rem;">
+                  <img src="./images/items-home.png" class="card-img-top" alt="home-pict">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-bold">SALE OF ORDINARY MEMBERSHIP AT THE CLUB</p>
+                  </div>
+                  <div class="w-100 my-2" style="padding:1px;background:#FCD44D"></div>
+                  <p class="fs-6 text-center">Purchase of membership directly from the club</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card d-flex justify-content-center border-0 m-0" style="width: 18rem;">
+                  <img src="./images/items-home.png" class="card-img-top" alt="home-pict">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-bold">SALE OF ORDINARY MEMBERSHIP AT THE CLUB</p>
+                  </div>
+                  <div class="w-100 my-2" style="padding:1px;background:#FCD44D"></div>
+                  <p class="fs-6 text-center">Purchase of membership directly from the club</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card d-flex justify-content-center border-0 m-0" style="width: 18rem;">
+                  <img src="./images/items-home.png" class="card-img-top" alt="home-pict">
+                  <div class="card-body">
+                    <p class="card-text text-center fw-bold">SALE OF ORDINARY MEMBERSHIP AT THE CLUB</p>
+                  </div>
+                  <div class="w-100 my-2" style="padding:1px;background:#FCD44D"></div>
+                  <p class="fs-6 text-center">Purchase of membership directly from the club</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="profile" class="tab-pane fade" role="tabpanel">Content Events</div>
+        <div id="third" class="tab-pane fade" role="tabpanel">Content Publication</div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row align-items-center">
+        <div class="col-3 badge bg-primary fw-normal fs-5 p-3" style="max-width:15rem">
+          Upcoming News
+        </div>
+        <div class="col-8 fw-normal">
+          SALE OF ORDINARY MEMBERSHIP AT THE CLUB
+        </div>
+      </div>
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col">
+            <p class="text-secondary fs-6">15 September 2015</p>
+            <h4>THE PALMS OPEN FOR BREAKFAST</h4>
+            <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</a>
+          </div>
+          <div class="col">
+            <p class="text-secondary fs-6">15 September 2015</p>
+            <h4>THE PALMS OPEN FOR BREAKFAST</h4>
+            <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</a>
+          </div>
+        </div>
+        <div id="more" class="row mt-5" style="display:none">
+          <div class="col">
+              <p class="text-secondary fs-6">15 September 2015</p>
+              <h4>THE PALMS OPEN FOR BREAKFAST</h4>
+              <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</a>
+          </div>
+          <div class="col">
+            <p class="text-secondary fs-6">15 September 2015</p>
+            <h4>THE PALMS OPEN FOR BREAKFAST</h4>
+            <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</a>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button onclick="ReadMore()" id="myBtn" class="bg-transparent border-0 mt-4 text-primary fw-bolder">Read more +</button>
+      </div>
+    </div>
+  </div>
+  <footer class="text-center text-lg-start text-dark mt-5 fs-6" style="background-color: #FCD44D">
+    <div class="container p-4 pb-4">
+      <section class="">
+        <div class="row">
+          <div class="col mx-auto mt-3" style="max-width:16em">
+            <div class="d-flex flex-row">
+              <img style="max-width:7em;max-height:7em" src="./images/logo.png" alt="logo">
+              <div>
+                <p>45 Tanjung Rihu Road Singapore 436899</p>
+                <p class="text-break">
+                  Tel:082299416186
+                  Fax:(021)4302879
+                </p>
+              </div>
+            </div>
+            <img class="w-100" src="./images/maps.png" alt="map">
+            <div class="mt-5">
+              <h4>Email Newsletters</h4>
+              <p class="fs-xs">Subscribe to receive news in your inbox</p>
+              <input class="w-100" type="email" placeholder="Email Adress">
+              <button class="bg-primary w-100 border-0 text-white text-start fw-light">SUBSCRIBE</button>
+            </div>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <p>
+              <a>Home</a>
+            </p>
+            <p>
+              <a>About Us</a><br>
+              <a>Brief History</a><br>
+              <a>Club Milestone</a><br>
+              <a>Swimming Milestone</a><br>
+              <a>Management Committee</a><br>
+              <a>Brief Club</a><br>
+              <a>Swimming</a>
+            </p>
+            <p>
+              <a>Club Buzz</a>
+            </p>
+            <p>
+              <a>Facilities</a><br>
+              <a>Sport</a><br>
+              <a>General</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <p>
+              <a>Membership</a><br>
+              <a>Member Scheme</a><br>
+              <a>Reciprocal Scheme</a><br>
+              <a>Golfing</a><br>
+              <a>Transfer & FAQ</a><br>
+              <a>Find Out More</a>
+            </p>
+            <p>
+              <a>Banquet</a>
+            </p>
+            <p>
+              <a>Photo Gallery</a><br>
+              <a>Sport</a><br>
+              <a>Swimming</a><br>
+              <a>Social</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <p>
+              <a>Wine and Dine</a><br>
+              <a>Miller</a><br>
+              <a>The Palms</a><br>
+              <a>Cabana</a><br>
+              <a>Transfer & FAQ</a><br>
+              <a>D'Tanjong</a>
+            </p>
+            <p>
+              <a>What's New</a><br>
+              <a>Sport</a><br>
+              <a>Swimming</a><br>
+              <a>Social</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      var owl = $('.owl-carousel');
+        owl.owlCarousel({
+          center:true,
+          items:1,
+          autoplay: true,
+          loop: true,
+          animateOut: 'fadeOut',
+          animateIn: 'fadeIn',
+          autoplayTimeout: 7000,
+          smartSpeed: 800,
+      });
+    });
+
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("nav-bar").style.display = "none";
+        document.getElementById("nav-scrolled").style.visibility = "visible";
+      } else {
+        document.getElementById("nav-bar").style.display = "block";
+        document.getElementById("nav-scrolled").style.visibility = "hidden";
+      }
+    }
+
+    $(document).ready(function(){
+      $(".nav-item a").click(function(){
+        $(this).tab('show');
+      });
+    });
+
+    function ReadMore() {
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (moreText.style.display === "") {
+        btnText.innerHTML = "Read more +"; 
+        moreText.style.display = "none";
+      } else {
+        btnText.innerHTML = "Read less -"; 
+        moreText.style.display = "";
+      }
+    }
+  </script>
+</body>
+</html>
